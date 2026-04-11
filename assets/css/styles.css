@@ -1,4 +1,33 @@
 .stopwatch{
     font-size: 40px;
     font-style: italic;
+    color: #2b9ce2;
+}
+
+.grid-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-btn button{
+    margin: 3px;
+    border: 1px solid var(--primary-color-darker);
+    height: 30px;
+    border-radius: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 1px 1px;
+}
+
+.grid-btn button:hover{
+    color: whitesmoke;
+    background: var(--primary-color-darker);
+}
+
+.grid-btn .pause:hover{
+    color: #e33b10;
+    box-shadow: none;
+}
+.stoped {
+    color: #e33b10;
 }
